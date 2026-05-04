@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>William Nathan | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="./william_resume.css">
+<link rel="stylesheet" href="./william_projects.css">
+<link rel="stylesheet" href="./william_darkmode.css">
+<link rel="stylesheet" href="./modal_fix.css">
+<style>
+  .subtitle-link {
+    color: inherit;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  .subtitle-link:hover {
+    transform: scale(1.03);
+    color: #555;
+  }
+</style>
+</head>
+
+<body>
+<div class="custom-cursor"></div>
+<nav>
+  <div class="nav-logo">WN.</div>
+  <ul>
+    <li><a href="#hero">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experiences</a></li>
+    <li><a href="#awards">Honors</a></li>
+  </ul>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+    <i class="fa-regular fa-sun icon-sun"></i>
+    <i class="fa-regular fa-moon icon-moon"></i>
+  </button>
+</nav>
+
+<header id="hero">
+  <span class="section-number">1</span>
+  <div class="hero-text">
+    <p class="subtitle">personal portfolio</p>
+    <h1 id="scramble-name">
+      <span class="interactive-name">William</span><br>
+      <span class="interactive-name">Nathan</span>
+    </h1>
+    <p style="color:var(--secondary);max-width:500px;font-size:1.1rem;">
+      I am an Indonesian-born Information Management fresh-graduate specializing in bridging cross-cultural gaps through leadership, technology, and strategic communication.
+    </p>
+    <div class="connect-cloud">
+      <span class="cloud-tag">Digital Marketing</span>
+      <span class="cloud-tag">Front-End Development</span>
+      <span class="cloud-tag">Business Development</span>
+      <div class="cta-line">
+        <a href="mailto:william.nathan199@gmail.com" class="connect-link">
+          Let's Connect <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="profile-container" id="profile-area">
+    <div class="profile-card" id="tilt-card">
+      <img src="./wey 1.jpg" alt="William Nathan 1" class="active-img">
+      <img src="./wey 2.jpg" alt="William Nathan 2">
+      <img src="./wey 3.jpeg" alt="William Nathan 3">
+    </div>
+    <div class="contact-orbit">
+      <div class="orbit-ring">
+        <a href="tel:+886900337475" class="satellite-icon" title="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:william.nathan199@gmail.com" class="satellite-icon" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/wewey20" target="_blank" class="satellite-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/william-nathan-31b415357/" target="_blank" class="satellite-icon" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/williamnthn/" target="_blank" class="satellite-icon" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="skills">
+  <span class="section-number">2</span>
+  <div class="section-grid">
+    <div class="section-header">
+      <h2 class="hollow-header hover-stagger">
+        <span>S</span><span>K</span><span>I</span><span>L</span><span>L</span><span>S</span>
+      </h2>
+    </div>
+    <div class="skills-content-column">
+      <div class="filter-container">
+        <button class="filter-btn active-filter" onclick="filterSkills('programming')">Programming</button>
+        <button class="filter-btn" onclick="filterSkills('professional')">Professional</button>
+        <button class="filter-btn" onclick="filterSkills('language')">Language</button>
+      </div>
+      <div class="skills-center-wrapper">
+
+        <div class="skill-group programming-grid" data-category="programming">
+          <div class="ring-item" data-percent="40">
+            <div class="svg-wrapper">
+              <svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress-circle" cx="50" cy="50" r="45"></circle></svg>
+              <div class="ring-content">
+                <div class="percent-display"><span class="percent-number">0</span><span class="symbol">%</span></div>
+                <div class="lang-logo"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python"></div>
+              </div>
+            </div>
+            <span class="ring-label">PYTHON</span>
+          </div>
+          <div class="ring-item" data-percent="35">
+            <div class="svg-wrapper">
+              <svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress-circle" cx="50" cy="50" r="45"></circle></svg>
+              <div class="ring-content">
+                <div class="percent-display"><span class="percent-number">0</span><span class="symbol">%</span></div>
+                <div class="lang-logo"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java"></div>
+              </div>
+            </div>
+            <span class="ring-label">JAVA</span>
+          </div>
+          <div class="ring-item" data-percent="70">
+            <div class="svg-wrapper">
+              <svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress-circle" cx="50" cy="50" r="45"></circle></svg>
+              <div class="ring-content">
+                <div class="percent-display"><span class="percent-number">0</span><span class="symbol">%</span></div>
+                <div class="lang-logo"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5"></div>
+              </div>
+            </div>
+            <span class="ring-label">HTML</span>
+          </div>
+          <div class="ring-item" data-percent="65">
+            <div class="svg-wrapper">
+              <svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress-circle" cx="50" cy="50" r="45"></circle></svg>
+              <div class="ring-content">
+                <div class="percent-display"><span class="percent-number">0</span><span class="symbol">%</span></div>
+                <div class="lang-logo"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3"></div>
+              </div>
+            </div>
+            <span class="ring-label">CSS</span>
+          </div>
+          <div class="ring-item" data-percent="50">
+            <div class="svg-wrapper">
+              <svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress-circle" cx="50" cy="50" r="45"></circle></svg>
+              <div class="ring-content">
+                <div class="percent-display"><span class="percent-number">0</span><span class="symbol">%</span></div>
+                <div class="lang-logo"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS"></div>
+              </div>
+            </div>
+            <span class="ring-label">JS</span>
+          </div>
+          <div class="ring-item" data-percent="60">
+            <div class="svg-wrapper">
+              <svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress-circle" cx="50" cy="50" r="45"></circle></svg>
+              <div class="ring-content">
+                <div class="percent-display"><span class="percent-number">0</span><span class="symbol">%</span></div>
+                <div class="lang-logo"><img src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" alt="SQL"></div>
+              </div>
+            </div>
+            <span class="ring-label">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group professional-list hidden" data-category="professional">
+          <div class="bar-row" data-width="70%">
+            <div class="bar-label"><span>LEADERSHIP & MANAGEMENT</span><span class="counter">0%</span></div>
+            <div class="bar-outer"><div class="bar-inner"></div></div>
+          </div>
+          <div class="bar-row" data-width="70%">
+            <div class="bar-label"><span>CRITICAL THINKING & PROBLEM SOLVING</span><span class="counter">0%</span></div>
+            <div class="bar-outer"><div class="bar-inner"></div></div>
+          </div>
+          <div class="bar-row" data-width="85%">
+            <div class="bar-label"><span>TEAMWORK & COLLABORATION</span><span class="counter">0%</span></div>
+            <div class="bar-outer"><div class="bar-inner"></div></div>
+          </div>
+          <div class="bar-row" data-width="80%">
+            <div class="bar-label"><span>SOCIAL MEDIA & CONTENT CREATION</span><span class="counter">0%</span></div>
+            <div class="bar-outer"><div class="bar-inner"></div></div>
+          </div>
+          <div class="bar-row" data-width="80%">
+            <div class="bar-label"><span>DIGITAL MEDIA PRODUCTION</span><span class="counter">0%</span></div>
+            <div class="bar-outer"><div class="bar-inner"></div></div>
+          </div>
+          <div class="bar-row" data-width="85%">
+            <div class="bar-label"><span>MICROSOFT OFFICE SUITE</span><span class="counter">0%</span></div>
+            <div class="bar-outer"><div class="bar-inner"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group language-cloud hidden" data-category="language">
+          <div class="lang-bubble">
+            <strong>INDONESIAN</strong><span>Native</span>
+          </div>
+          <div class="lang-bubble" onclick="openProof('./toeic certificate.jpg', 'TOEIC Certificate')">
+            <strong>ENGLISH</strong><span>TOEIC 930</span>
+          </div>
+          <div class="lang-bubble" onclick="openProof('path/to/chinese.jpg', 'TOCFL Certificate')">
+            <strong>CHINESE</strong><span>8.5 Years Immersive</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <span class="section-number">3</span>
+  <div class="section-grid">
+    <div class="section-header">
+      <h2 class="hollow-header hover-stagger">
+        <span>E</span><span>D</span><span>U</span><span>C</span><span>A</span><span>T</span><span>I</span><span>O</span><span>N</span>
+      </h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item item-block">
+        <div class="timeline-dot"></div>
+        <div class="card-mover">
+          <a href="https://www.cycu.edu.tw/" target="_blank" rel="noopener noreferrer" class="edu-card-link">
+            <div class="edu-card">
+              <div class="edu-info">
+                <span class="label">2022 — 2026</span>
+                <h3>Chung Yuan Christian University</h3>
+                <p style="color:var(--secondary); font-size: 0.85rem; margin-top:10px;">
+                  B.B. in Information Management<br><strong>GPA 3.91</strong><br>Taoyuan City, Taiwan
+                </p>
+              </div>
+              <div class="edu-image-reveal"><img src="./cycu logo.png" alt="CYCU"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-item item-block">
+        <div class="timeline-dot"></div>
+        <div class="card-mover">
+          <a href="https://www.nups.ntnu.edu.tw/" target="_blank" rel="noopener noreferrer" class="edu-card-link">
+            <div class="edu-card">
+              <div class="edu-info">
+                <span class="label">2021 — 2022</span>
+                <h3>National Taiwan Normal University</h3>
+                <p style="color:var(--secondary); font-size: 0.85rem; margin-top:10px;">
+                  <strong>Division of Preparatory Programs</strong><br>New Taipei City, Taiwan
+                </p>
+              </div>
+              <div class="edu-image-reveal"><img src="./qiaoda logo.png" alt="NTNU"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="timeline-item item-block">
+        <div class="timeline-dot"></div>
+        <div class="card-mover">
+          <a href="https://www.nocsh.ntpc.edu.tw/home" target="_blank" rel="noopener noreferrer" class="edu-card-link">
+            <div class="edu-card">
+              <div class="edu-info">
+                <span class="label">2017 — 2021</span>
+                <h3>National Overseas Chinese Senior High School</h3>
+                <p style="color:var(--secondary); font-size: 0.85rem; margin-top:10px;">
+                  New Taipei City, Taiwan
+                </p>
+              </div>
+              <div class="edu-image-reveal"><img src="./nocsh logo.png" alt="High School"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <span class="section-number">4</span>
+  <div class="section-grid">
+    <div class="section-header">
+      <h2 class="hollow-header hover-stagger">
+        <span>E</span><span>X</span><span>P</span><span>E</span><span>R</span><span>I</span><span>E</span><span>N</span><span>C</span><span>E</span><span>S</span>
+      </h2>
+    </div>
+    <div>
+
+      <div class="exp-filter-container">
+        <button class="exp-filter-btn active-exp-filter" onclick="filterExp('work')">Work</button>
+        <button class="exp-filter-btn" onclick="filterExp('projects')">Projects</button>
+        <button class="exp-filter-btn" onclick="filterExp('volunteer')">Others</button>
+      </div>
+
+      <div class="exp-group" id="exp-work">
+        <div class="experience-list">
+
+          <!-- Administrative Assistant -->
+          <div class="exp-item item-block">
+            <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="exp-header">
+              <div>
+                <span class="label">2025 — present</span>
+                <h3>Project and Administrative Assistant</h3>
+                <span class="label" style="text-transform:none; opacity:0.6;">
+                  <a href="https://www.instagram.com/cycu701.707/" target="_blank" rel="noopener noreferrer" class="subtitle-link">Career Development Center, CYCU</a>
+                </span>
+              </div>
+            </div>
+            <div class="exp-content">
+              <ul>
+                <li>Managed and organized 2–3 administrative documents and files weekly using Excel, Visme, and Word, ensuring accurate record-keeping and information accessibility.</li>
+                <li>Compiled and analyzed data to produce 1–2 reports weekly, supporting departmental decision-making and performance evaluation.</li>
+                <li>Produced promotional social media reels for 5–7 events including a Tech & Job Talk featuring Moboo, a podcaster with 153K followers, contributing to 70+ attendee turnout.</li>
+                <li>Co-organized an on-campus career fair for local and international students, achieving an 90% satisfaction rate and gaining 200+ Instagram followers in a single day.</li>
+              </ul>
+              <div class="exp-gallery">
+                <div class="gallery-wrapper">
+                  <div class="gallery-track">
+                    
+                    <div class="gallery-slide"><img src="./admin 2.png" alt="Admin work 2"></div>                   
+                    <div class="gallery-slide"><img src="./admin 4.png" alt="Admin work 4"></div>
+                    <div class="gallery-slide"><img src="./admin 8.png" alt="Admin work 8"></div>
+                  </div>
+                  <div class="gallery-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                  </div>
+                  <div class="gallery-arrow prev"><i class="fa-solid fa-chevron-left"></i></div>
+                  <div class="gallery-arrow next"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Administrative Assistant -->
+          <div class="exp-item item-block">
+            <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="exp-header">
+              <div>
+                <span class="label">2025 — present</span>
+                <h3>Administrative and Student Support Assistant</h3>
+                <span class="label" style="text-transform:none; opacity:0.6;">
+                  <a href="https://www.facebook.com/cyculanguage/?locale=zh_TW" target="_blank" rel="noopener noreferrer" class="subtitle-link">Language Center, CYCU</a>
+                </span>
+              </div>
+            </div>
+            <div class="exp-content">
+              <ul>
+                <li>Coordinated weekly English consultation schedules and maintained student data via Excel, addressing inquiries on exams (TOEIC, IELTS, GEPT), curriculum requirements, and grading policies.
+</li>
+                <li>Assisted in organizing and supervising 5-7 on-campus events monthly, including the "World Café" cultural exchange event for 50+ local and 10+ international students, achieving ~90% positive feedback.</li>
+                <li>Supported 3 teachers across 3 TOEIC intensive classes weekly, managing course logistics and communication for 30+ students per class.</li>
+              </ul>
+              <div class="exp-gallery">
+                <div class="gallery-wrapper">
+                  <div class="gallery-track">
+                    <div class="gallery-slide"><img src="./admin 1.png" alt="Admin work 1"></div>
+                    <div class="gallery-slide"><img src="./admin 3.png" alt="Admin work 3"></div>
+                    <div class="gallery-slide"><img src="./admin 5.png" alt="Admin work 5"></div>
+                    <div class="gallery-slide"><img src="./admin 6.png" alt="Admin work 6"></div>
+                    <div class="gallery-slide"><img src="./admin 7.png" alt="Admin work 7"></div>
+                  </div>
+                  <div class="gallery-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                  </div>
+                  <div class="gallery-arrow prev"><i class="fa-solid fa-chevron-left"></i></div>
+                  <div class="gallery-arrow next"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Student Association -->
+          <div class="exp-item item-block">
+            <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="exp-header">
+              <div>
+                <span class="label">2023 — 2024</span>
+                <h3>Student Association Activity Committee Member</h3>
+                <span class="label" style="text-transform:none; opacity:0.6;">
+                  <a href="https://www.instagram.com/cyisa_/?hl=en" target="_blank" rel="noopener noreferrer" class="subtitle-link">Indonesian Student Association, CYCU</a>
+                </span>
+              </div>
+            </div>
+            <div class="exp-content">
+              <ul>
+                <li>Led venue survey, vendor communication, and weekly coordination meetings with senior members for the annual prom event, successfully hosting 90+ attendees.</li>
+                <li>Organized  4 events averaging 80 attendees each, achieving ~90% positive feedback and managing end-to-end logistics from planning to execution.</li>
+                <li>
+Hosted the annual welcoming party for 80+ attendees, driving CYISA's Instagram growth from 200 to 240+ followers through on-site promotion.</li>
+              </ul>
+              <div class="exp-gallery">
+                <div class="gallery-wrapper">
+                  <div class="gallery-track">
+                    <div class="gallery-slide"><img src="./cyisa 1.png" alt="ISA event 1"></div>
+                    <div class="gallery-slide"><img src="./cyisa 2.png" alt="ISA event 2"></div>
+                    <div class="gallery-slide"><img src="./cyisa 3.png" alt="ISA event 3"></div>
+                  </div>
+                  <div class="gallery-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                  </div>
+                  <div class="gallery-arrow prev"><i class="fa-solid fa-chevron-left"></i></div>
+                  <div class="gallery-arrow next"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Teaching Assistant -->
+          <div class="exp-item item-block">
+            <div class="plus-icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="exp-header">
+              <div>
+                <span class="label">2023</span>
+                <h3>Overseas Youth Chinese Language Online Program Teaching Assistant</h3>
+                <span class="label" style="text-transform:none; opacity:0.6;">
+                  <a href="https://www.instagram.com/cycu_mlc/" target="_blank" rel="noopener noreferrer" class="subtitle-link">Mandarin Language Center, College of Humanities and Education, CYCU</a>
+                </span>
+              </div>
+            </div>
+            <div class="exp-content">
+              <ul>
+                <li>Assisted the lead teacher in preparing teaching materials and classroom activities 2 times per week.</li>
+                <li>Processed and organized 1–2 weekly lecture recordings on Google Drive, maintaining a digital resource library for 21 students.</li>
+                <li>
+Provided in-class tutoring to all 21 students (1 hour per session) and on-demand after-class support throughout the 3-month program.</li>
+              </ul>
+              <div class="exp-gallery">
+                <div class="gallery-wrapper">
+                  <div class="gallery-track">
+                    <div class="gallery-slide"><img src="./exp-ta-1.jpg" alt="TA photo 1"></div>
+                    <div class="gallery-slide"><img src="./exp-ta-2.jpg" alt="TA photo 2"></div>
+                    <div class="gallery-slide"><img src="./exp-ta-3.jpg" alt="TA photo 3"></div>
+                  </div>
+                  <div class="gallery-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                  </div>
+                  <div class="gallery-arrow prev"><i class="fa-solid fa-chevron-left"></i></div>
+                  <div class="gallery-arrow next"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+
+      <div class="exp-group hidden" id="exp-projects">
+        <div class="project-list">
+
+          <div class="proj-item item-block">
+            <div class="proj-plus-icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="proj-header">
+              <span class="label">2025 — 2026</span>
+              <h3>Muse – AI Powered Music Advertising Platform</h3>
+              <div class="proj-tags">
+                <span class="proj-tag">UI/UX Design</span>
+                <span class="proj-tag">Frontend</span>
+                <span class="proj-tag">HTML</span>
+                <span class="proj-tag">CSS</span>
+                <span class="proj-tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="proj-content">
+              <p>Led the end-to-end UI/UX design and frontend development of Muse, a music advertising platform that helps advertisers match music to target audiences and optimize campaign effectiveness.</p>
+              <ul>
+                <li>Designed the full visual identity, wireframes, and interactive components from scratch.</li>
+                <li>Built admin dashboards and user-facing interfaces for ad performance tracking and audience engagement.</li>
+                <li>Developed the frontend of a reward-based participation system to drive user retention and data reliability.</li>
+                <li>Collaborated closely with the backend team to translate product requirements into clean, functional interfaces.</li>
+              </ul>
+              <a href="https://github.com/wewey20" target="_blank" class="proj-link">
+                View on GitHub <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="proj-item item-block">
+            <div class="proj-plus-icon"><i class="fa-solid fa-plus"></i></div>
+            <div class="proj-header">
+              <span class="label">2023</span>
+              <h3>黃金屋書店 - Golden House Bookstore</h3>
+              <div class="proj-tags">
+                <span class="proj-tag">UI/UX Design</span>
+                <span class="proj-tag">Frontend</span>
+                <span class="proj-tag">HTML</span>
+                <span class="proj-tag">CSS</span>
+                <span class="proj-tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="proj-content">
+              <p>Designed and developed a multi-page bookstore e-commerce interface as part of a Front-End Development course, building a structured and interactive shopping experience using HTML, CSS, and JavaScript.</p>
+              <ul>
+                <li>Built product detail pages for 24 books with organized file architecture across categorized modules.</li>
+                <li>Implemented a dynamic rating and review history system to simulate real-world e-commerce functionality.</li>
+                <li>Contributed to the overall UI/UX design direction, delivering a fully responsive layout across all pages.</li>
+              </ul>
+              <a href="https://github.com/wewey20" target="_blank" class="proj-link">
+                View on GitHub <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ── VOLUNTEER TAB ── -->
+      <div class="exp-group hidden" id="exp-volunteer">
+        <div class="vol-grid">
+
+          <div class="vol-card item-block">
+            <div class="vol-card-inner">
+              <div class="vol-front">
+                <span class="label">2024</span>
+                <h3>Capture Wonderful Moments — Smartphone Photography Workshop for Seniors</h3>
+                <p class="vol-org">Taoyuan City Council</p>
+                <p class="vol-desc">Led community outreach with the Taoyuan City Council (桃園市議會), conducting hands-on technology workshops for 20+ elderly residents and equipping them with practical digital skills for everyday modern life.</p>
+                <span class="vol-badge">Education</span>
+                <span class="vol-hint"><i class="fa-solid fa-rotate"></i> Hover to see photos</span>
+              </div>
+              <div class="vol-back">
+                <div class="vol-slideshow">
+                  <img src="./elder 1.png" alt="Volunteer photo 1" class="vol-slide active-vol-slide">
+                  <img src="./elder 2.png" alt="Volunteer photo 2" class="vol-slide">
+                  <img src="./elder 3.png" alt="Volunteer photo 3" class="vol-slide">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <a href="https://www.instagram.com/ehctw/?hl=en" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block;">
+  <div class="vol-card item-block">
+    <div class="vol-card-inner">
+      <div class="vol-front">
+        <span class="label">2023 - present</span>
+        <h3>Church Creative and Multimedia Committee Member</h3>
+        <p class="vol-org">Ekklesia Harvest Church</p>
+        <p class="vol-desc">Led youth event organization and hosting for 100+ attendees, maintained church multimedia equipment, and handled video shooting and production to support weekly services and special programs.</p>
+        <span class="vol-badge">Community</span>
+        <span class="vol-hint"><i class="fa-solid fa-rotate"></i> Hover to see photos</span>
+      </div>
+      <div class="vol-back">
+        <div class="vol-slideshow">
+          <img src="./church 1.png" alt="Tutor photo 1" class="vol-slide active-vol-slide">
+          <img src="./church 2.png" alt="Tutor photo 2" class="vol-slide">
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+
+          <a href="https://fudouplan.wixsite.com/my-site" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit; display:block;">
+          <div class="vol-card item-block">
+            <div class="vol-card-inner">
+              <div class="vol-front">
+                <span class="label">2022</span>
+                <h3>扶荳計畫 — Social Enterprise Business Model</h3>
+                <p class="vol-org">Department of Information Management , CYCU</p>
+                <p class="vol-desc">Collaborated with Crispy Soy Bean Biscotti to market their 營養餅 and 香香豆籤 product line — led branding efforts including logo design and promotional materials, built a LINE Bot for customer engagement, and managed social media campaigns to promote healthy, nutritious snacking.</p>
+                <span class="vol-badge">Marketing</span>
+                <span class="vol-hint"><i class="fa-solid fa-rotate"></i> Hover to see photos</span>
+              </div>
+              <div class="vol-back">
+                <div class="vol-slideshow">
+                  <img src="./soy business.png" alt="Tutor photo 1" class="vol-slide active-vol-slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+
+        </div>
+      </div>
+      <!-- ── END VOLUNTEER ── -->
+
+    </div>
+  </div>
+</section>
+
+<section id="awards">
+  <span class="section-number">5</span>
+  <div class="section-grid">
+    <div class="section-header">
+      <h2 class="hollow-header hover-stagger">
+        <span>H</span><span>O</span><span>N</span><span>O</span><span>R</span><span>S</span>
+      </h2>
+    </div>
+    <div class="award-list">
+      <div class="award-row item-block" onclick="openProof('./award osa 114.jpg', 'Outstanding Overseas Chinese Student Scholarship, Academic Year 2025, Awarded by the Overseas Community Affairs Council (OCAC)')">
+        <span class="award-name">Outstanding Overseas Chinese Student Scholarship, Academic Year 2025, Awarded by the Overseas Community Affairs Council (OCAC)</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./award osa 113.jpg', 'Outstanding Overseas Chinese Student Scholarship, Academic Year 2024, Awarded by the Overseas Community Affairs Council (OCAC)')">
+        <span class="award-name">Outstanding Overseas Chinese Student Scholarship, Academic Year 2024, Awarded by the Overseas Community Affairs Council (OCAC)</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./award dean.jpg', 'Academic Excellence Award (Dean\'s List Award), Chung Yuan Christian University, First Semester, Academic Year 2024')">
+        <span class="award-name">Academic Excellence Award (Dean's List Award), Chung Yuan Christian University, First Semester, Academic Year 2024</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./award comp.jpg', '2nd Place – English Public Speaking Competition')">
+        <span class="award-name">2nd Place – English Public Speaking Competition</span>
+        <span class="award-tag">Competition</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./eng pres.png', '3rd Place in Class – English Presentation Skills')">
+        <span class="award-name">3rd Place in Class – English Presentation Skills, First Semester, Academic Year 2023</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./stats.png', '3rd Place in Class – Statistics')">
+        <span class="award-name">3rd Place in Class – Statistics, First Semester, Academic Year 2023</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./intro it.png', '1st Place in Class – Introduction to Information Technology')">
+        <span class="award-name">1st Place in Class – Introduction to Information Technology, First Semester, Academic Year 2022</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./award 110.jpg', 'Academic Excellence Award (3rd Place), Academic Year 2021')">
+        <span class="award-name">Academic Excellence Award (3rd Place), Academic Year 2021</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./award 110-1.jpg', 'Academic Excellence Award (3rd Place), First Semester, Academic Year 2021')">
+        <span class="award-name">Academic Excellence Award (3rd Place), First Semester, Academic Year 2021</span>
+        <span class="award-tag">Academic</span>
+      </div>
+      <div class="award-row item-block" onclick="openProof('./award 109.jpg', 'Director\'s Award for Academic Excellence, New Taipei City, Academic Year 2020')">
+        <span class="award-name">Director's Award for Academic Excellence, New Taipei City, Academic Year 2020</span>
+        <span class="award-tag">Academic</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="proof-modal" class="modal">
+  <span class="modal-close">×</span>
+  <div class="modal-content-wrapper">
+    <img id="modal-img" src="" alt="Certificate Proof">
+    <p id="modal-caption" style="margin-top: 2rem; font-family: 'Inter',sans-serif;"></p>
+  </div>
+</div>
+
+<footer>
+  <p style="margin-top:4rem;font-size:0.7rem;opacity:0.3;letter-spacing:2px;">© 2026 WILLIAM NATHAN</p>
+</footer>
+
+<script src="./william_resume.js"></script>
+</body>
+</html>
